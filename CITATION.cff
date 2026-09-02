@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper and this repository."
+title: "Beyond Joint Degradation: Interaction-Aware Bilingual Diagnosis for Harmful Meme Detection"
+type: software
+version: 1.0.0
+date-released: 2026-09-02
+authors:
+  - family-names: Kong
+    given-names: Xiangming
+  - family-names: Lu
+    given-names: Junyu
+  - family-names: Xu
+    given-names: Bo
+  - family-names: Lin
+    given-names: Hongfei
+license: MIT
+repository-code: "https://github.com/kongxx820-bit/Beyond-Joint-Degradation"
+abstract: "Code-only implementation and reproduction instructions for the Cross-modal Diagnosis Protocol for bilingual harmful meme robustness."

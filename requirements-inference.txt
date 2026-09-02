@@ -1,0 +1,6 @@
+# Install a CUDA-compatible torch/torchvision build for your machine first.
+transformers>=4.45,<5
+Pillow>=10,<12
+tqdm>=4.66,<5
+qwen-vl-utils>=0.0.8,<1
+openai>=1.40,<3

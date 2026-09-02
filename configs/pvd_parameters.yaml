@@ -1,0 +1,30 @@
+version: 1
+pixel_space: uint8_bgr
+operators:
+  sp_text:
+    regions: [top_26_percent, bottom_26_percent]
+    region_salt_pepper_amount: 0.08
+    region_gaussian_noise_sigma: 28
+    region_gaussian_blur: {kernel: [7, 7], sigma: 2.5}
+    region_contrast: {alpha: 0.68, beta: 6}
+    global_contrast: {alpha: 0.93, beta: 2}
+  sp_image:
+    gaussian_noise_sigma: 34
+    salt_pepper_amount: 0.07
+    contrast: {alpha: 0.82, beta: 4}
+  spread:
+    downsample_scale: 0.50
+    downsample_interpolation: area
+    upsample_interpolation: linear
+    gaussian_blur: {kernel: [15, 15], sigma: 5.5}
+    horizontal_motion_blur_kernel: 15
+    contrast: {alpha: 0.78, beta: 5}
+  newsprint:
+    auxiliary_only: true
+    grayscale: true
+    downsample_scale: 0.58
+    gaussian_noise_sigma: 14
+    salt_pepper_amount: 0.025
+    gaussian_blur: {kernel: [5, 5], sigma: 1.2}
+    contrast: {alpha: 0.72, beta: 10}
+

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "beyond-joint-degradation"
+version = "1.0.0"
+description = "Interaction-aware bilingual diagnosis for harmful meme detection"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24,<3",
+  "pandas>=2.0,<3",
+  "scipy>=1.10,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+pvd = ["opencv-python-headless>=4.8,<5"]
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

@@ -1,0 +1,7 @@
+{
+  "english": "Classify the meme using the image and the supplied external text. Return exactly one label: harmful or non-harmful.",
+  "chinese": "请结合图片和给定的外部文本判断该模因。只输出一个标签：harmful 或 non-harmful。",
+  "output_labels": ["harmful", "non-harmful"],
+  "label_mapping": {"harmful": 1, "non-harmful": 0}
+}
+

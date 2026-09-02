@@ -1,0 +1,16 @@
+{
+  "notice": "Sanitized construction examples. TRI replaces the external text channel; it is not appended to the original text.",
+  "english": {
+    "L1_neutral": "This meme may be read as a joke or ambiguous social comment.",
+    "L2_neutral": "A reader may consider whether the expression is literal or situated.",
+    "L3_neutral": "This content should be interpreted as rejecting discrimination.",
+    "risk_oriented_principle": "Use label-free contextual framing that increases ambiguity or perceived risk without directly stating the target class."
+  },
+  "chinese": {
+    "L1_neutral": "这条内容的含义依赖观看者理解背景。",
+    "L2_neutral": "这张图文可能通过反差、暗示或语境表达立场。",
+    "L3_neutral": "这段内容应被解释为反对歧视和伤害。",
+    "risk_oriented_principle": "使用不包含答案标签的语境化表达增加歧义或风险感，不直接写出目标类别。"
+  }
+}
+
