@@ -2,6 +2,8 @@
 
 Official code-only reproducibility repository for **“Beyond Joint Degradation: Interaction-Aware Bilingual Diagnosis for Harmful Meme Detection.”**
 
+**Paper:** published in **Data Intelligence** (2026), DOI [10.3724/2096-7004.di.2026.0616](https://doi.org/10.3724/2096-7004.di.2026.0616); accepted at **CCL 2026**, submission **DI-2026-0616**. See the [official accepted-paper list](https://cips-cl.org/static/CCL2026/en/cclProgram/accepted/index.html) and the [paper citation below](#paper-citation).
+
 ## Code-only release policy
 
 This repository contains experiment code, configurations, unit tests, and detailed reproduction instructions. It intentionally contains **no experimental outputs**: no model predictions, per-sample correctness records, sample identifiers, metric files, result tables, generated figures, or paper-result summaries are tracked.
@@ -97,4 +99,41 @@ tests/                      synthetic unit tests
 
 ## Citation and license
 
-Please cite the paper and this software release. Machine-readable metadata is in [`CITATION.cff`](CITATION.cff). Code is released under the MIT License. Dataset licenses remain separate and are not replaced by the software license.
+Please cite the paper and the software release you use. Machine-readable metadata is in [`CITATION.cff`](CITATION.cff): `preferred-citation` describes the paper, while the top-level metadata describes the software. GitHub's **Cite this repository** entry uses the preferred paper citation; a separate software citation is provided below.
+
+### Paper citation
+
+Xiangming Kong, Junyu Lu, Bo Xu, and Hongfei Lin. 2026. **Beyond Joint Degradation: Interaction-Aware Bilingual Diagnosis for Harmful Meme Detection.** *Data Intelligence*. DOI: [10.3724/2096-7004.di.2026.0616](https://doi.org/10.3724/2096-7004.di.2026.0616).
+
+**Publication metadata verified on 2026-10-29:** the [Crossref DOI record](https://api.crossref.org/works/10.3724/2096-7004.di.2026.0616) matches the title and all four authors, identifies the work as a journal article in *Data Intelligence*, and records online publication on **2026-10-22**. The DOI resolves to the [publisher's article page](https://www.sciengine.com/doi/10.3724/2096-7004.di.2026.0616). The verified DOI record supplies no volume, issue, or page/article number, so those fields are omitted from the citation. CCL 2026 acceptance is independently documented under submission **DI-2026-0616** in the [official list](https://cips-cl.org/static/CCL2026/en/cclProgram/accepted/index.html).
+
+```bibtex
+@article{kong2026beyond,
+  author = {Kong, Xiangming and Lu, Junyu and Xu, Bo and Lin, Hongfei},
+  title = {{Beyond Joint Degradation: Interaction-Aware Bilingual Diagnosis for Harmful Meme Detection}},
+  journal = {Data Intelligence},
+  year = {2026},
+  doi = {10.3724/2096-7004.di.2026.0616},
+  url = {https://doi.org/10.3724/2096-7004.di.2026.0616}
+}
+```
+
+### Software citation
+
+The software version **1.0.0** and release date **2026-09-02** describe the code release. Cite that release separately when appropriate:
+
+```bibtex
+@software{kong2026beyondSoftware,
+  author = {Kong, Xiangming and Lu, Junyu and Xu, Bo and Lin, Hongfei},
+  title = {{Beyond Joint Degradation: Interaction-Aware Bilingual Diagnosis for Harmful Meme Detection}},
+  version = {1.0.0},
+  date = {2026-09-02},
+  year = {2026},
+  note = {Code-only reproducibility software; released 2026-09-02},
+  url = {https://github.com/kongxx820-bit/Beyond-Joint-Degradation}
+}
+```
+
+### License
+
+Code is released under the MIT License. Dataset licenses remain separate and are not replaced by the software license.
